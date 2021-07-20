@@ -20,7 +20,7 @@ describe('basic test', () => {
 
     it('should export default the mocha UI function', () => {
         assert(fMocha instanceof Function, 'default export should be a function');
-        assert((fMocha as Function).name === 'fMochaInterface', 'default export should be the `fMochaInterface` function');
+        assert((fMocha as unknown as Function).name === 'fMochaInterface', 'default export should be the `fMochaInterface` function');
     });
 
 });

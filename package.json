@@ -1,7 +1,7 @@
 {
     "name": "f-mocha",
     "description": "Mocha wrapper for f-promise",
-    "version": "4.1.0-bee.3",
+    "version": "4.1.0-bee.4",
     "license": "MIT",
     "repository": {
         "type": "git",
